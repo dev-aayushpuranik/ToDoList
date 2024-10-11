@@ -23,7 +23,7 @@ The project follows Clean Architecture principles, with the following layers:
 - **ViewModel** - Manage UI-related data in a lifecycle-conscious way.
 - **LiveData** - For observing data changes.
 - **Retrofit** - For Network Calls
-- ** :**
+- **Crashlytics:** - Firebase for crashlytics
 
 # Folder Structure
 ![image](https://github.com/user-attachments/assets/e1735e22-c817-489e-a284-11226114aee1)
@@ -34,7 +34,7 @@ The project follows Clean Architecture principles, with the following layers:
 # Installation
 - Clone the repository:
 ```
-git clone https://github.com/aayushpuranik/todo-clean-architecture.git
+git clone https://github.com/aayushpuranik/todoList.git
 cd todo-clean-architecture
 ```
 - Open the project in Android Studio.
