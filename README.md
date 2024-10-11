@@ -34,7 +34,7 @@ The project follows Clean Architecture principles, with the following layers:
 # Installation
 - Clone the repository:
 ```
-git clone https://github.com/aayushpuranik/todoList.git
+git clone https://github.com/dev-aayushpuranik/ToDoList.git
 cd todo-clean-architecture
 ```
 - Open the project in Android Studio.
