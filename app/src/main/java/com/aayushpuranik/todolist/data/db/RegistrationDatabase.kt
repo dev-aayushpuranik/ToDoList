@@ -1,0 +1,1 @@
+package com.aayushpuranik.todolist.data.dbimport androidx.room.Databaseimport androidx.room.RoomDatabaseimport com.aayushpuranik.todolist.domain.model.Person@Database(entities = [Person::class], version = 1)abstract class RegistrationDatabase: RoomDatabase() {    abstract fun registrationDao(): RegistrationDao}

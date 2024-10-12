@@ -1,0 +1,1 @@
+package com.aayushpuranik.todolist.domain.modelimport androidx.room.Entityimport androidx.room.PrimaryKey@Entitydata class Person(    @PrimaryKey    val personId: Long,    val FirstName: String,    val LastName: String,    val phone: String,    val email: String,    val password: String)
