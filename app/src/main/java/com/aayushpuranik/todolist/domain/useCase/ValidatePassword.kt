@@ -1,0 +1,1 @@
+package com.aayushpuranik.todolist.domain.useCaseclass ValidatePassword {    fun execute(password: String?): ValidateResult {        if(password?.trim().isNullOrBlank()) {            return ValidateResult(false, "Password is needed")        }        return ValidateResult(true)    }}

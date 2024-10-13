@@ -1,1 +1,1 @@
-package com.aayushpuranik.todolist.presentationsealed class UIState {    object Laoding: UIState()    data class Success(val data: String): UIState()    data class Error(val errorMessage: String): UIState()}
+package com.aayushpuranik.todolist.presentationsealed class UIState<out T> {    object Loading: UIState<Nothing>()    data class Success<out T>(val data: T) : UIState<T>()    data class Error(val exception: String) : UIState<Nothing>()}

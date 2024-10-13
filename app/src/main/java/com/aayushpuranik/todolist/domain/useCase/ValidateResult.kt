@@ -1,0 +1,1 @@
+package com.aayushpuranik.todolist.domain.useCasedata class ValidateResult(    val Success: Boolean,    val errorMessage: String? = null)
